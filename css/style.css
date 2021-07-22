@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+header, footer {
+  width: 100%;
+  background-color: rgb(99, 99, 99);
+  color: rgb(199, 199, 199);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+}
+
+header div {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  justify-content: left; 
+  align-items: center;
+}
+
+ul {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+#hero {
+  margin-top: 30px;
+}
+
+#subBanner {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: space-evenly;
+}
+
+#featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#featured div {
+  width: 480px;
+  height: 400px;
+}
+
+h3 {
+  width: 100%;
+  justify-content: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+article {
+  margin-left: 30px;
+}
+
+p {
+  width: 450px;
+  height: 300px;
+  overflow: scroll;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
+  margin-top: 20px;
+  transition: 0.35s;
+}
+
+button:hover {
+  background-color: lightgray;
+  color: black;
+}
